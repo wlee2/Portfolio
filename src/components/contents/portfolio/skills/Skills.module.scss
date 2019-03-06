@@ -1,0 +1,111 @@
+.main {
+    color: darkslategray;
+    width: 85%;
+    padding: 40px 0;
+    margin: auto;
+    h1 {
+        font-size: 2.5em;
+        margin: 14px 0;
+    }
+    h3 {
+        margin: 14px 0;
+    }
+    p {
+        font-size: 1.2em;
+        margin: 14px 0;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .box {
+        legend {
+            display: inline-block;
+            text-align: center;
+            background-color: #41A4F5;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            h3 {
+                svg {
+                    transform: translate(0%, -10%);
+                    font-size: 50px;
+                    font-weight: 900;
+                    color: whitesmoke;
+                }
+                
+            }
+        }
+        background-color: white;
+        width: 300px;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px 0;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+        color: black;
+        p {
+            font-size: 16px;
+            text-align: center;
+            margin: 14px 0;
+        }
+        li {
+            list-style-type: none;
+        }
+        svg {
+            font-size: 20px;
+            color: green;
+        }
+        
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .box {
+        legend {
+            h3 {
+                svg {
+                    transform: translate(0%, +10%) !important;
+                }
+            }
+        }
+        li {
+        font-size: 14px;
+        }
+    }
+}
+
+.background {
+    background-color: #eeeeee;
+    padding-bottom: 20px;
+}
+
+.skillBar {
+    p {
+        color: gray;
+        letter-spacing: 4px;
+        font-size: 15px;
+    }
+    .white {
+        background-color: white;
+        width: 100%;
+        div {
+            background-color: gray;
+            height: 28px;
+        }
+        .front {
+            width: 93%; 
+        }
+        .back {
+            width: 80%;
+        }
+        .desktop {
+            width: 87%;
+        }
+        .mobile {
+            width: 75%;
+        }
+    }
+}

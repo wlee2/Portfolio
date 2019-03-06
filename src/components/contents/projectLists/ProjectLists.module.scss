@@ -1,0 +1,43 @@
+.main {
+    margin-top: 50px;
+    .head {
+        background-color: #41A4F5;
+        padding: 4.5rem 0;
+        margin-bottom: 20px;
+        h1, p {
+            width: 80%;
+            margin: auto;
+            padding: 10px;
+            color: white;
+        }
+    }
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        margin-top: 30px;
+        .head {
+            padding: 2rem 0;
+        }
+    }
+    .buttons {
+        width: 90%;
+        justify-content: center;
+    }
+}

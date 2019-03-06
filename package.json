@@ -1,0 +1,63 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.3.1",
+    "busboy": "^0.3.0",
+    "client-sessions": "^0.8.0",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.2.0",
+    "express-session": "^1.15.6",
+    "file-saver": "^2.0.0",
+    "immutable": "^4.0.0-rc.12",
+    "mongoose": "^5.4.11",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.11.0",
+    "pg": "^7.8.1",
+    "react": "^16.8.0",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.8.0",
+    "react-icons": "^3.3.0",
+    "react-json-pretty": "^2.0.0",
+    "react-player": "^1.9.3",
+    "react-redux": "^6.0.0",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.3",
+    "react-svg": "^7.2.6",
+    "react-syntax-highlighter": "^10.1.2",
+    "react-transition-group": "^2.6.0",
+    "redux": "^4.0.1",
+    "sequelize": "^4.42.1",
+    "slate": "^0.44.10",
+    "slate-html-serializer": "^0.7.34",
+    "slate-react": "^0.21.16",
+    "styled-components": "^4.1.3"
+  },
+  "scripts": {
+    "server": "nodemon --exec babel-node ./server/app.js --delay 2",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:4300",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

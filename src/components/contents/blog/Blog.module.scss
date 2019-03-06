@@ -1,0 +1,97 @@
+.main {
+    margin-top: 50px;
+    .header {
+        background-color: #41A4F5;
+        padding: 4.5rem 0;
+        margin-bottom: 20px;
+        h1, p {
+            width: 80%;
+            margin: auto;
+            padding: 10px;
+            color: white;
+        }
+    }
+    .postingBtnNav {
+        position: relative;
+        margin: 10px;
+        text-align: right;
+        .postingButton {
+            background-color: #41A4F5;
+            font-size: 20px;
+            color: snow;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    }
+}
+
+.cards {
+    border: 1px solid #41A4F5;
+    margin: 40px;
+    box-shadow: 3px 5px 20px grey;
+    .title {
+        border-bottom: 1px solid #41A4F5;
+        background-color: #41A4F5;
+        color: snow;
+        margin: 0;
+        padding: 6px 25px;
+        font-weight: bold;
+    }
+    .cardContents{
+        display: flex;
+        justify-content: flex-start;
+        max-height: 200px;
+        min-height: 200px;
+        img {
+            width: 300px;
+            margin-right: 15px;
+            object-fit: cover;
+            border-right: 1px solid #41A4F5;
+        }
+        div {
+            .author {
+                font-size: 13px;
+                color: gray;
+            }
+            pre {
+                // white-space:pre-line;
+                white-space: pre-wrap;
+                padding: 20px 10px;
+                overflow: hidden;
+                height: 130px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        margin-top: 30px;
+        .header {
+            padding: 2rem 0;
+        }
+    }
+    .cards {
+        .title {
+            font-size: 20px;
+        }
+        .cardContents{
+            flex-wrap: wrap;
+            min-height: 350px;
+            img {
+                width: 100%;
+                height: 150px;
+                margin-right: 0;
+                border-right: none;
+                border-bottom: 1px solid #41A4F5;
+            }
+            div {
+                padding: 5px;
+                .author {
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}

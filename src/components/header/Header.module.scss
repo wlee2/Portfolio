@@ -1,0 +1,44 @@
+.HeadNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+    a{
+        color: gray;
+        text-decoration: none;
+        padding: 5px 10px;
+        &:hover {
+            color: black;
+        }
+    }
+    .login, .logout {
+        text-align: center;
+        cursor: pointer;
+        span {
+            color: gray;
+            letter-spacing: 2px;
+            font-size: 14px;
+        }
+        i {
+            font-size: 20px;
+            color: #41A4F5;
+            padding: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .login, .logout {
+        background-color: #41A4F5;
+        border-radius: 10px;
+        padding: 6px;
+        span {
+            color: snow !important;
+        }
+        i {
+            color: snow !important;
+        }
+    }
+}

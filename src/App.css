@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.page {
+    width: 100%;
+    transition: all 500ms ease;
+}
+  
+.page-enter {
+    position: fixed;
+    top: 0;
+    transform: translateX(+100%);
+}
+  
+.page-enter-active {
+    transform: translateX(0);
+}
+
+.page-enter-done {
+    position: relative !important;
+}
+
+.page-exit {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.loading {
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+}

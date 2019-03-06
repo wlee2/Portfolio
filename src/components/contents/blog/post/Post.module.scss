@@ -1,0 +1,44 @@
+.main {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 50px;
+    z-index: 3;
+    form {
+        h3 {
+            text-align: center;
+        }
+        text-align: left;
+        width: 90%;
+        padding: 15px;
+        background-color: white;
+        border: 1px solid #eeeeee;
+        border-radius: 15px;
+    }
+    transition: all 500ms ease;
+}
+
+.typeButton {
+    button {
+        background-color: gray;
+        color: snow;
+        padding: 1px 10px;
+        border: none;
+        border-radius: 5px;
+        margin: 0 5px;
+    }
+    .actived {
+        background-color: #41A4F5 !important;
+        color: white;
+    }
+    
+}
+
+.editor {
+    margin: 10px 0;
+    height: 300px;
+    overflow: auto;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
