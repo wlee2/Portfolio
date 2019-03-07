@@ -5,10 +5,11 @@
 ```js
 Created with --> React.js Node.js <-- mainly
 ```
-
-<h2>You can clone this project but you can't execute it perfectly</h2>
+```diff
+-<h2>You can clone this project but you can't execute it perfectly</h2>
   
-For the protection of my MongoDB and PostgreSQL service, I didn't upload the .env and config files. Thus, there would be assured some errors when you execute the server side codes.
+-For the protection of my MongoDB and PostgreSQL service, I didn't upload the .env and config files. Thus, there would be assured some errors when you execute the server side codes.
+```
 
 <h2>In the project directory, you can run</h2>
 
